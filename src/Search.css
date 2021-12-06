@@ -1,0 +1,121 @@
+header {
+  margin-top: 50px;
+}
+body {
+  background-image: url("few_clouds.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+.container {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 0px 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.message {
+  margin: 20px 0px;
+}
+.citynames {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 40px;
+  color: black;
+}
+.citynames a:link {
+  text-decoration: none;
+  color: black;
+}
+.buttons {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+h1 {
+  margin: 20px 0px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+  margin: 20px 0px;
+}
+
+.description:first-letter {
+  text-transform: capitalize;
+}
+.lastUpdate {
+  font-style: bold;
+}
+.currentTemperature {
+  font-size: 50px;
+  margin: 20px 0px;
+}
+.currentTemperature a:link {
+  text-decoration: none;
+}
+
+.currentTemperature .active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+  font-weight: bold;
+}
+.currentTemperature .active:hover {
+  text-decoration: none;
+}
+
+.unit {
+  font-size: 20px;
+  position: relative;
+  top: -25px;
+}
+
+.weather-symbol {
+  padding-right: 10px;
+}
+.wind-icon {
+  padding-left: 20px;
+}
+
+.hours {
+  margin: 20px 0px;
+  text-align: center;
+  border: 1px solid grey;
+  padding: 20px;
+}
+.time {
+  font-weight: bold;
+}
+.week {
+  margin: 20px 0px;
+  text-align: center;
+  border: 1px solid grey;
+  padding: 20px;
+}
+.weekday {
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+.weatherDetails {
+  list-style: none;
+}
+
+@media (max-width: 350px) {
+  .cityname a {
+    font-size: 18px;
+  }
+}
