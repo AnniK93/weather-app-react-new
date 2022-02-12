@@ -206,14 +206,14 @@ export default function Search() {
     axios.get(apiUrl).then(showWeather);
   }
 
-  function formatHour(timestamp) {
-    let date = new Date(timestamp * 1000);
-    let hour = date.getHours();
-    if (hour < 10) {
-      hour = `0${hour}`;
-    }
-    return hour;
-  }
+  //function formatHour(timestamp) {
+  // let date = new Date(timestamp * 1000);
+  //let hour = date.getHours();
+  //if (hour < 10) {
+  //  hour = `0${hour}`;
+  // }
+  // return hour;
+  // }
   let now = new Date();
 
   let days = [
@@ -225,7 +225,7 @@ export default function Search() {
     "Friday",
     "Saturday",
   ];
-  let day = now.getDay();
+  // let day = now.getDay();
   let currentDay = days[now.getDay()];
   let minutes = now.getMinutes();
   if (minutes < 10) {
