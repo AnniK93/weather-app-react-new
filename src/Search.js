@@ -291,7 +291,7 @@ export default function Search() {
       </div>
     </header>
   );
-  let forecast = <h3>Forecast for next 6 days goes here</h3>;
+  let forecast = <h3>Forecast for next 6 days goes here eventually</h3>;
   let form = (
     <form onSubmit={handleSubmit}>
       <input
