@@ -43,7 +43,7 @@ export default function Search() {
     let lat = `${position.coords.latitude}`;
     let lon = `${position.coords.longitude}`;
     let apiKey = "6697611895f9d8bb5ac23403332f6cdd";
-    let units = "imperial";
+    let units = "metric";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=${units}`;
 
     axios.get(apiUrl).then(showWeather);
