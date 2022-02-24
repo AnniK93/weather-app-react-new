@@ -327,6 +327,14 @@ export default function Search() {
             <div className="hours">Weather for next 6 hours goes here</div>
             <div className="week">{forecast}</div>
           </div>
+          <footer>
+            <p>
+              <a href="https://github.com/AnniK93/weather-app-react-new">
+                Open source code
+              </a>{" "}
+              by Anni
+            </p>
+          </footer>
         </div>
       </body>
     );
@@ -336,6 +344,14 @@ export default function Search() {
         <div className="container">
           {header}
           {form}
+          <footer>
+            <p>
+              <a href="https://github.com/AnniK93/weather-app-react-new">
+                Open source code
+              </a>{" "}
+              by Anni
+            </p>
+          </footer>
         </div>
       </body>
     );
