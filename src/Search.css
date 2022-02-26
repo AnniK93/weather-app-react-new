@@ -33,6 +33,11 @@ body {
   margin-bottom: 30px;
   font-size: 18px;
 }
+
+form button {
+  margin: 0px 2px;
+}
+
 h1 {
   margin: 20px 0px;
 }
@@ -50,21 +55,21 @@ h3 {
 .lastUpdate {
   font-style: bold;
 }
-.currentTemperature {
+.currentDegrees {
   font-size: 50px;
   margin: 20px 0px;
 }
-.currentTemperature a:link {
+.currentDegrees a:link {
   text-decoration: none;
 }
 
-.currentTemperature .active {
+.currentDegrees .active {
   color: black;
   cursor: default;
   text-decoration: none;
   font-weight: bold;
 }
-.currentTemperature .active:hover {
+.currentDegrees .active:hover {
   text-decoration: none;
 }
 

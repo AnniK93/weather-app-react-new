@@ -313,8 +313,9 @@ export default function Search() {
               <h2>
                 <img src={weather.icon} alt={weather.description} />
                 <span className="currentDegrees">
-                  {Math.round(weather.temperature)}°C
+                  {Math.round(weather.temperature)}
                 </span>
+                <span className="unit">°C</span>
               </h2>
             </div>
             <div className="col">
