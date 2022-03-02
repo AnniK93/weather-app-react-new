@@ -11,7 +11,9 @@ export default function Search() {
 
   function showWeather(response) {
     let cityName = response.data.name;
-    setMessage(`${cityName}`);
+    let countryName = response.data.sys.country;
+    console.log(response);
+    setMessage(`${cityName}, ${countryName}`);
     setLoaded(true);
     setWeather({
       temperature: response.data.main.temp,
