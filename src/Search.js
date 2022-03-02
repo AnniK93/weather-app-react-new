@@ -206,14 +206,6 @@ export default function Search() {
     axios.get(apiUrl).then(showWeather);
   }
 
-  //function formatHour(timestamp) {
-  // let date = new Date(timestamp * 1000);
-  //let hour = date.getHours();
-  //if (hour < 10) {
-  //  hour = `0${hour}`;
-  // }
-  // return hour;
-  // }
   let now = new Date();
 
   let days = [
@@ -322,11 +314,6 @@ export default function Search() {
               <h4>Humidity: {weather.humidity}%</h4>
               <h4>Wind: {weather.wind}m/sec</h4>
             </div>
-          </div>
-          <div className="forecast">
-            <h3>Weather forecast</h3>
-            <div className="hours">Weather for next 6 hours goes here</div>
-            <div className="week">{forecast}</div>
           </div>
           <footer>
             <p>
